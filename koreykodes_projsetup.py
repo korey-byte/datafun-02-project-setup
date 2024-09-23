@@ -9,7 +9,7 @@ import pathlib
 import time
 
 # Import local modules
-import joanna_utils
+import korey_utils
 
 #####################################
 # Declare global variables
@@ -125,7 +125,7 @@ def main() -> None:
     print("#####################################\n")
 
     # Print get_byline() from imported module
-    print(f"Byline: {joanna_utils.get_byline()}")
+    print(f"Byline: {korey_utils.get_byline()}")
 
    
     # Call function 1 to create folders for a range (e.g. years)
